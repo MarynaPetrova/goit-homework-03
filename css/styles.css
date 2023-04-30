@@ -171,6 +171,16 @@
 
     .footer {
         background: #2e2f42;
+        padding: 100px 0;
+    }
+
+    .footer-logo {
+        display: inline-block;
+        margin-bottom: 16px;
+    }
+
+    .footer-p {
+        max-width: 264px;
     }
 
     .selection-h1 {

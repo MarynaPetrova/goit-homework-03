@@ -8,8 +8,6 @@
         font-family: 'Roboto', sans-serif;
         background-color: var(--white);
         color: #434455;
-        font-style: normal;
-        font-weight: 500;
     }
 
     ul, ol {
@@ -57,6 +55,16 @@
 
     .link {
         text-decoration: none;
+    }
+
+    .nav-list {
+        display: flex;
+        gap: 40px;
+    }
+
+    .contact-list {
+        display: flex;
+        gap: 40px;
     }
 
     .address-list:hover {
@@ -140,6 +148,21 @@
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
     }
+    /* section-two */
+
+  .section-two {
+    padding: 120px 0;
+    }
+
+    .advantages-list {
+        display: flex;
+        gap: 24px;
+    }
+    
+    .advantages-item {
+        width: calc((100% - 72px) / 4);
+    }
+
 
     .section-two-four-h {
         font-weight: 500;
@@ -147,6 +170,7 @@
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
     }
 
     .section-three-h {
@@ -244,13 +268,7 @@
         color: #2e2f42;
     }
 
-    .section-two {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-    }
+  
 
     .section-two-p {
         line-height: 1.5;
@@ -291,10 +309,7 @@
 
     .list {
         list-style: none;
-        display: flex;
-        gap: 40px;
     }
-
 
     .portfolio-list {
         font-weight: 500;

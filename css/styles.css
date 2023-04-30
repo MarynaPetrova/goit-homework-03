@@ -262,6 +262,8 @@
 
     .footer-p {
         max-width: 264px;
+        color: #F4F4FD;
+        line-height: 1.5;
     }
 
     .selection-h1 {
